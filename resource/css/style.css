@@ -1,0 +1,35 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+html{
+    background-color: white;
+    color:#555;
+    font-family: 'Gelasio', serif;
+    font-weight:300;
+    font-size:20px;
+}
+.row{
+    margin:0 auto;
+    max-width: 1140px;
+}
+.clearfix{
+    zoom:1
+}
+.clearfix::after{
+    content:'.';
+    clear:both;
+    display:block;
+    height:0;
+    visibility:hidden;
+}
+header{
+    background-image:linear-gradient(rgba(77, 75, 75, 0.014),rgba(92, 90, 90, 0.815)), url(11.jpg);
+    height:100vh;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
