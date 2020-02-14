@@ -9,7 +9,8 @@ html{
     font-family: 'Gelasio', serif;
     font-weight:300;
     font-size:20px;
-}
+    font-style:'Dancing Script', cursive; 
+} 
 .row{
     margin:0 auto;
     max-width: 1140px;
